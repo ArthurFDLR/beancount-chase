@@ -1,0 +1,5 @@
+Details,Posting Date,Description,Amount,Type,Balance,Check or Slip #
+DEBIT,12/01/2020,"Desc Debit 2             11/30",-59.17,DEBIT_CARD,494.68,,
+CREDIT,10/13/2020,"Desc Credit 2",100.00,MISC_CREDIT,553.85,,
+DEBIT,10/05/2020,"Desc Debit 1           10/04",-11.78,DEBIT_CARD,453.85,,
+CREDIT,10/05/2020,"Desc Credit 1    1465436878       WEB ID: 453233521",465.53,ACH_CREDIT,465.53,,
