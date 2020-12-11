@@ -1,4 +1,4 @@
-# Beancount Caisse d'Epargne Importer
+# Beancount Chase Bank Importer
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ArthurFDLR/beancount-chase/beancount-chase)](https://github.com/ArthurFDLR/beancount-chase/actions)
 [![PyPI](https://img.shields.io/pypi/v/beancount-chase)](https://pypi.org/project/beancount-chase/)
