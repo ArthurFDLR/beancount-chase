@@ -6,8 +6,6 @@
 [![GitHub](https://img.shields.io/github/license/ArthurFDLR/beancount-chase)](https://github.com/ArthurFDLR/beancount-chase/blob/master/LICENSE.txt)
 [![Linting](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-🚧 Work in progress 🚧
-
 ## Installation
 
 ```console
@@ -19,8 +17,9 @@
 ```python
     CONFIG = [
         ChaseImporter(
-            param,
-            ...
+            account='Assets:US:CB:Checking',
+            expenseCat='Expenses:FIXME',    #Optional
+            creditCat='Income:FIXME',       #Optional
         ),
     ]
 ```
