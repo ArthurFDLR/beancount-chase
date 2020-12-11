@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "beancount-chase"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+authors = ["Arthur Findelair <arthfind@gmail.com>"]
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Plugins",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3 :: Only",
+]
+include = ["README.md", "LICENSE.txt"]
+repository = "https://github.com/ArthurFDLR/beancount-chase"
+keywords = ["banking", "beancount", "cli-accounting", "finance"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^19.10b0", python = "^3.6"}
+
+[tool.black]
+line-length = 79
+skip-string-normalization = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
