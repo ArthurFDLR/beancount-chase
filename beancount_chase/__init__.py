@@ -18,6 +18,7 @@ class ChaseBankImporter(importer.ImporterProtocol):
         expenseCat (str, optional): Expense category in beancount format (e.g. 'Expenses:FIXME'). Defaults to '', no expense posting added to the operation.
         creditCat (str, optional): Income category in beancount format (e.g. 'Income:FIXME'). Defaults to '', no income posting added to the operation.
     """
+
     def __init__(
         self,
         account: str,
