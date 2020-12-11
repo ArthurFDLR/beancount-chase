@@ -6,6 +6,8 @@
 [![GitHub](https://img.shields.io/github/license/ArthurFDLR/beancount-chase)](https://github.com/ArthurFDLR/beancount-chase/blob/master/LICENSE.txt)
 [![Linting](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+`beancount-chase` is a [Beancount](http://furius.ca/beancount/) importer for [Chase Bank](https://www.chase.com/) CSV statements.
+
 ## Installation
 
 ```console

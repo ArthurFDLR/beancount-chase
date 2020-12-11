@@ -1,4 +1,4 @@
-name: beancount-ce
+name: beancount-chase
 
 on: [push, pull_request]
 
