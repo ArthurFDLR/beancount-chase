@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "beancount-chase"
-version = "0.1.0"
-description = ""
+version = "1.0.0"
+description = "Beancount Importer for Chase CSV statements"
 readme = "README.md"
 authors = ["Arthur Findelair <arthfind@gmail.com>"]
 license = "MIT"
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Environment :: Plugins",
     "Intended Audience :: End Users/Desktop",
     "Intended Audience :: Financial and Insurance Industry",
